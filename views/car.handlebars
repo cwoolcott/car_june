@@ -1,0 +1,11 @@
+   {{#if firstName}}
+   <a href="/carbyid/{{id}}"><img src="../images/{{image}}" style="width:500px"></a><br>
+    <h3>{{yearMade}} {{make}} {{model}}</h3>
+    {{#if sold}}
+    <div style="color:red; font-size:14px">SOLD!!!!!</div>
+    {{/if}}
+    Brought to you by {{dealer}}! on {{displayTodaysDate}}<br/>
+   <br><br>
+   {{else}}
+    <b>Must be Logged in!</b>
+   {{/if}}

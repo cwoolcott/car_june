@@ -1,0 +1,8 @@
+   <a href="/carbyid/{{id}}"><img src="../images/{{image}}" style="width:100px"></a><br>
+    <h3>{{yearMade}} {{make}} {{model}}</h3>
+    {{#if sold}}
+    <div style="color:red; font-size:14px">SOLD!!!!!</div>
+    {{/if}}
+    Brought to you by {{dealer}}! on {{displayTodaysDate}}<br/>
+   <a href="/carbyid/{{id}}">{{displayCarLink yearMade make model}}</a> 
+   <br><br>
